@@ -1,0 +1,50 @@
+.btn {
+    cursor: pointer;
+    background: linear-gradient(89.67deg, #ffa41d 16.87%, #ff2f7a 76.95%);
+    box-shadow: 0px 8px 30px rgba(255, 83, 106, 0.6);
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gilroy";
+    font-size: 20px;
+    padding: 13px 20px 14.5px;
+    min-width: 200px;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover {
+    }
+    &:focus {
+    }
+    &:active {
+    }
+    &-primary {
+        &:hover {
+        }
+    }
+    &-secondary {
+        &:hover {
+        }
+    }
+    &-contour {
+        &:hover {
+        }
+    }
+    &-filter {
+        &:hover {
+        }
+    }
+}
+input,
+textarea {
+    border: unset;
+    background: transparent;
+    &::placeholder {
+    }
+}
+button {
+    border: unset;
+    padding: unset;
+    cursor: pointer;
+    background: transparent;
+}

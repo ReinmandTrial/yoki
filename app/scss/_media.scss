@@ -1,0 +1,471 @@
+// MAX-WIDTH 1600PX breakpoints START
+@media (max-width: 1600px) {
+}
+// MAX-WIDTH 1600PX breakpoints END
+
+// MAX-WIDTH 1399.98PX breakpoints START
+@media (max-width: 1399.98px) {
+}
+// MAX-WIDTH 1399.98PX breakpoints END
+
+// MAX-WIDTH 1199.98PX breakpoints START
+@media (max-width: 1199.98px) {
+}
+// MAX-WIDTH 1199.98PX breakpoints END
+
+// MAX-WIDTH 991.98PX breakpoints START
+@media (max-width: 991.98px) {
+   .header {
+      background: unset;
+      &__conditions,
+      &__support,
+      &__contacts {
+         display: none;
+      }
+      &__content {
+         padding: 25px 5px 0 10px;
+         height: unset;
+      }
+      .icon-burger {
+         order: 3;
+      }
+   }
+   .burger {
+      &__content {
+         padding: 50px 30px 45px 45px;
+      }
+      .logo {
+         padding-left: 0px;
+         margin-bottom: 20px;
+         &__img {
+            width: 97px;
+            height: 97px;
+            margin-right: 19px;
+         }
+      }
+      &__chat {
+         margin-left: 5px;
+         margin-bottom: 95px;
+      }
+      &__list {
+         padding-left: 15px;
+         margin-bottom: 60px;
+      }
+      &__item:not(:last-child) {
+         margin-bottom: 50px;
+      }
+      &__btn {
+         margin-left: 55px;
+      }
+   }
+   .banner {
+      &__content {
+         padding-left: unset;
+      }
+   }
+   .explanation {
+      &__grid {
+         max-height: 780px;
+      }
+      &__item-text {
+         margin: 20px 15px;
+      }
+      &__item {
+         width: calc(50% - 10px);
+         &:nth-child(1) {
+            order: 1;
+            .explanation__item-img {
+               width: unset;
+            }
+         }
+         &:nth-child(2) {
+            order: 2;
+            height: 370px;
+            .explanation__item-text {
+               margin: 20px 15px;
+            }
+         }
+         &:nth-child(3) {
+            order: 4;
+         }
+         &:nth-child(4) {
+            order: 3;
+         }
+         &:nth-child(5) {
+            order: 5;
+         }
+         &:nth-child(6) {
+            order: 6;
+         }
+      }
+   }
+   .tokenomics {
+      &__content {
+         align-items: center;
+      }
+      &__title {
+         display: none;
+      }
+      &__title-mobile {
+         display: block;
+         text-align: center;
+      }
+      &__image {
+         position: static;
+         margin-bottom: 25px;
+      }
+      &__text-block {
+         order: 3;
+         width: 100%;
+      }
+      .graph__container {
+         max-width: unset;
+      }
+   }
+   .algorithm {
+      &__adjustment,
+      &__sum-title {
+         display: none;
+      }
+      &__row {
+      }
+      &__row-head {
+         .algorithm__sum {
+            padding-left: 20px;
+         }
+         .algorithm__growth {
+            padding-left: unset;
+         }
+      }
+      &__sum {
+         padding-left: 19px;
+         width: 24%;
+         // font-size: 10px;
+      }
+      &__price {
+         width: 15%;
+         padding-left: unset;
+         // font-size: 10px;
+      }
+      &__burning {
+         padding-left: unset;
+         // font-size: 10px;
+         width: 23%;
+      }
+      &__growth {
+         padding-left: unset;
+         // font-size: 10px;
+         width: 38%;
+      }
+      .graph__title {
+         // font-size: 10px;
+         // width: 50px;
+         // margin-right: 5px;
+      }
+   }
+   .tariffs {
+      &__title {
+         margin-bottom: 100px;
+      }
+      &__block {
+         flex-wrap: wrap;
+      }
+      &__item {
+         width: 50%;
+         &.active {
+            transform: none;
+         }
+         &:first-child {
+            margin-bottom: 20px;
+         }
+      }
+   }
+   .footer .header__content {
+      padding-top: unset;
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints END
+
+// MAX-WIDTH 767.98PX breakpoints START
+@media (max-width: 767.98px) {
+   .banner {
+      &__content {
+         flex-direction: column;
+         padding-left: 30px;
+      }
+      &__image-phone {
+         position: static;
+         margin-left: -200px;
+         margin-top: -100px;
+         margin-bottom: -100px;
+      }
+   }
+   .explanation {
+      &__item-text {
+         margin: 20px 15px;
+      }
+      &:nth-child(2) .explanation__item-text {
+         margin: 20px 15px;
+      }
+   }
+   .live-games {
+      &__content {
+         flex-direction: column;
+         align-items: center;
+      }
+      &__title {
+         margin-left: auto;
+         margin-right: auto;
+      }
+      &__bg {
+         height: 75%;
+      }
+   }
+   .algorithm {
+      &__content {
+         padding: 15px 0 90px;
+      }
+      &__title {
+         font-size: 30px;
+         margin-bottom: 10px;
+      }
+      &__row {
+         min-height: 30px;
+         &:not(:last-child) {
+            margin-bottom: 6px;
+         }
+      }
+      &__row-head {
+         padding: 20px 0;
+         .algorithm__sum,
+         .algorithm__price,
+         .algorithm__adjustment,
+         .algorithm__burning,
+         .algorithm__growth {
+            font-size: 10px;
+         }
+      }
+      &__sum {
+         font-size: 10px;
+      }
+      &__price {
+         font-size: 10px;
+      }
+      &__burning {
+         font-size: 10px;
+         width: 23%;
+      }
+      &__growth {
+         font-size: 10px;
+      }
+      .graph__title {
+         font-size: 10px;
+         width: 50px;
+         margin-right: 5px;
+      }
+   }
+}
+// MAX-WIDTH 767.98PX breakpoints END
+
+// MAX-WIDTH 576.98PX breakpoints START
+@media (max-width: 575.98px) {
+   .explanation {
+      &__content {
+         padding: 60px 0 45px;
+      }
+      &__title {
+         display: none;
+      }
+      &__grid {
+         max-height: unset;
+         margin: -7.5px 0;
+      }
+      &__item-text {
+         // margin: 20px 15px;
+      }
+      &__item-title {
+         font-size: 30px;
+         line-height: 37px;
+         margin-bottom: 5px;
+      }
+      &__item {
+         margin: 7.5px 5px;
+         width: calc(100% - 10px);
+         &:nth-child(1) {
+            // order: 1;
+            min-height: 190px;
+            overflow: visible;
+            .explanation__item-img {
+               height: 153%;
+               top: -48px;
+               right: -25px;
+               img {
+                  height: 100%;
+               }
+            }
+         }
+         &:nth-child(2) {
+            order: 4;
+            min-height: 315px;
+            .explanation__item-text {
+               //    margin: 20px 15px;
+               width: 87%;
+            }
+            .explanation__item-descr {
+               max-width: 187px;
+            }
+         }
+         &:nth-child(3) {
+            order: 2;
+            min-height: 323px;
+            .explanation__item-text {
+               max-width: 158px;
+            }
+         }
+         &:nth-child(4) {
+            order: 5;
+            min-height: 200px;
+            .explanation__item-img {
+               right: 11px;
+            }
+            .explanation__item-descr {
+               max-width: 150px;
+            }
+         }
+         &:nth-child(5) {
+            order: 3;
+            min-height: 220px;
+            .explanation__item-img {
+               right: -51px;
+            }
+            .explanation__item-text {
+               width: 58%;
+            }
+         }
+         &:nth-child(6) {
+            .explanation__item-img {
+               right: 28px;
+               top: 109px;
+            }
+         }
+      }
+   }
+   .banner {
+      &__content {
+         padding-left: unset;
+      }
+      &__image-phone {
+         margin-left: -258px;
+         margin-top: -60px;
+         margin-bottom: -101px;
+         margin-right: -177px;
+      }
+      &__title {
+         font-size: 35px;
+         margin: 0 -5px;
+         margin-bottom: 25px;
+         span {
+            background: url("../images/banner-title-shadow-mobile.png") -4px 4px no-repeat;
+         }
+      }
+      &__subtitle {
+         display: none;
+      }
+      &__btns-block {
+         justify-content: space-between;
+         flex-wrap: wrap;
+      }
+      &__btn-how-it-work-circle {
+         flex: 0 0 auto;
+         width: 31px;
+         height: 34px;
+         border: unset;
+         margin-right: 25px;
+      }
+      &__bg-office {
+         top: -27px;
+         width: 192%;
+         height: 109%;
+      }
+   }
+   .tokenomics {
+      &__content {
+         padding: 40px 0 35px;
+      }
+      &__title {
+         font-size: 70px;
+         margin-bottom: 25px;
+         span {
+            background: url("../images/tokenomics-title-shadow-mobile.png") 5px 21px no-repeat;
+         }
+      }
+      &__image {
+         margin: 0 -5px 25px -5px;
+      }
+      &__text-block {
+         padding: 0 40px;
+      }
+   }
+   .live-games {
+      &__content {
+         padding: 30px 0;
+      }
+      &__title {
+         margin-bottom: unset;
+         padding-left: 40px;
+      }
+      &__image {
+         margin-top: -20px;
+         margin-left: -50px;
+      }
+   }
+   .tariffs {
+      &__content {
+         padding: 35px 0;
+      }
+      &__title {
+         font-size: 45px;
+         margin-bottom: 45px;
+         line-height: 56px;
+         font-family: "Gilroy";
+      }
+      &__block {
+         background: unset;
+         box-shadow: none;
+         flex-direction: column;
+         align-items: center;
+         padding: 0 15px;
+      }
+      &__item {
+         padding: 25px 30px 30px;
+         background: rgba(35, 30, 58, 0.5);
+         border-radius: 39px;
+         width: 100%;
+         align-items: center;
+         font-family: "Gilroy";
+         &:not(:last-child) {
+            margin-bottom: 20px;
+         }
+      }
+      &__percent {
+         font-size: 45px;
+         margin-bottom: 10px;
+      }
+      &__name {
+         font-size: 55px;
+         margin-bottom: 15px;
+      }
+      &__list-item {
+         font-size: 20px;
+      }
+      &__check {
+         width: 36px;
+         height: 36px;
+         margin-right: 30px;
+      }
+      &__list {
+         margin-bottom: 30px;
+      }
+   }
+}
+// MAX-WIDTH 576.98PX breakpoints END
